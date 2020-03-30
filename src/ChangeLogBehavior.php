@@ -142,6 +142,6 @@ class ChangeLogBehavior extends Behavior
      */
     protected function getLogItem()
     {
-        return Yii::$container->get('cranky4\changeLogBehavior\LogItem');
+        return Yii::$container->get(LogItem::class);
     }
 }
